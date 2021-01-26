@@ -26,4 +26,4 @@ let user = {
 };
 user.contacts.phone = '+37368214986',
 user.address = null,
-console.log(user),
+console.log(user)
