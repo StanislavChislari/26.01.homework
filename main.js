@@ -1,3 +1,5 @@
+
+//задача 6.2
 let salaries = {
   John: 100,
   Ann: 160,
@@ -10,3 +12,18 @@ for (let key in salaries) {
 }
 console.log("Totalul salariului este: ", suma)
 document.write("Totalul salariului este: ", suma); 
+
+//задача 6.5
+let user = {     
+  name:'person',  
+  age: 123,
+  salary: 1542.33,
+  contacts:{
+    phone: '112',
+    email:'email@domain.com',
+  } ,
+  address:'Moldova'       
+};
+user.contacts.phone = '+37368214986',
+user.address = null,
+console.log(user),
